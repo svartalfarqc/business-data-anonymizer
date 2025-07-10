@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Data files - IMPORTANT: Never commit real business data
+*.csv
+!sample_data.csv
+!example_*.csv
+
+# Mapping files - These contain the keys to your data
+anonymization_mappings.json
+*_mappings.json
+mapping_summary.txt
+
+# Config files with sensitive paths
+config.json
+!config.example.json
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Output directories
+output/
+anonymized/
+processed/
