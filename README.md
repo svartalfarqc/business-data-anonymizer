@@ -1,6 +1,7 @@
 # Business Data Anonymizer
 
 A Python tool for anonymizing business data in CSV files while preserving specified columns and maintaining full traceability through mapping files.
+Created by Luc Mercier using Claude (Anthropic AI)
 
 ## Overview
 
